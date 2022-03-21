@@ -1,93 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Soi design</title>
-</head>
-<body>
-  <section class="s-top-page-wrapper">
-    <header class="s-header-wrapper">
-      <nav class="s-nav-wrapper">
-        <a class="s-nav__link"href="#">soi design</a>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”description“ content="ホームページを作りたい・何から始めたらいいかわからない・パソコンには詳しくない・プロフィールサイトが欲しい・ポートフォリオを作りたい・・・こんなお悩みをお持ちの方、あなたの活動をWebで発信してみませんか？"/>
+    <link rel="stylesheet" href="style.css">
+    <title>soi design</title>
+  </head>
 
-        <div class="s-nav">
-          <a class="s-nav__link" href="#s-about">ABOUT</a>
-          <a class="s-nav__link s-nav__text" href="#s-howTo">HOW TO</a>
-          <a class="s-nav__link" href="#s-contact">CONTACT</a>
+  <body>
+    <section class="s-top-page-wrapper">
+      <header class="s-header-wrapper">
+        <nav class="s-nav-wrapper">
+          <h1><a class="s-nav__heading" href="#">soi design</a></h1>
+
+          <div class="s-nav">
+            <a class="s-nav__link" href="#s-about">ABOUT</a>
+            <a class="s-nav__link s-nav__text" href="#s-howTo">HOW TO</a>
+            <a class="s-nav__link" href="#s-contact">CONTACT</a>
+          </div>
+        </nav>
+
+        <div>
+          <img class="s-top-img" src="img/top_pc.png">
         </div>
-      </nav>
+      </header>
 
-      <div>
-        <img class="s-img" src="img/top_pc.png">
-      </div>
-    </header>
+      <div class="s-inner">
+        <section class="s-about-wrapper" id="s-about">
+          <h2 class="s-title">ABOUT</h2>
+          <p class="s-text">私たちについて</p>
+          <p>・</p>
+          <p class="s-customize">・</p>
+          <div class="s-about__detail">
+            <ul class="s-about__list">
+              <li class="s-about__list__item">ホームページを作りたい</li>
+              <li class="s-about__list__item">何から始めたらいいかわからない</li>
+              <li class="s-about__list__item">パソコンには詳しくない</li>
+              <li class="s-about__list__item">プロフィールサイトが欲しい</li>
+              <li class="s-about__list__item">ポートフォリオを作りたい</li>
+            </ul>
 
-    <section class="s-about-wrapper" id="s-about">
-      <p class="s-title">ABOUT</p>
-      <p class="s-text">私たちについて</p>
-      <p>・</p>
-      <p class="s-customize">・</p>
-      <p class="s-about__detail">音楽家のプロフィールサイトに特化した<br>Web制作チームです。<br>あなたの音楽活動を<br>Webで発信してみませんか？</p>
-    </section>
+            <p class="s-about__detail__text">こんなお悩みをお持ちの方<br>あなたの活動をWebで発信してみませんか？</p>
+          </div>
+        </section>
 
-    <section class="s-member-wrapper">
-      <p>MEMBER</p>
+        <section class="s-member-wrapper">
+          <h2>MEMBER</h2>
 
-      <div class="s-member-inner">
-        <div class="s-member-img">ゆっこ</div>
-        <div class="s-member-img">なな</div>
-      </div>
-    </section>
-    <section class="s-how-to-wrapper" id="s-howTo">
-      <p class="s-title">HOW TO</p>
-      <p class="s-text">ご注文の手順</p>
-      <p>・</p>
-      <p class="s-customize">・</p>
-
-      <div  class="s-how-to-container">
-        <ul class="s-how-to-list">
-          <div class="s-how-to-inner s-how-to-list__item">
-            <div>
-              <li >お問い合わせ
-                <p class="s-how-to-list__detail">instagramのメッセージから<br>受け付けています。</p>
-              </li>
+          <div class="s-member-inner">
+            <div class="s-member-img-wrapper">
+              <p>ゆっこ</p>
+              <img class="s-member-img" src="img/yukko01.png" alt="yukko">
             </div>
 
-            <div>
-              <p  class="s-how-to-text">click here</p>
-              <a href="https://www.instagram.com/soi_design7" target="_blank"><img class="s-how-to-img" src="img/Instagram.png" alt="instagram"></a>
+            <div class="s-member-img-wrapper">
+              <p>なな</p>
+              <img class="s-member-img" src="img/nana01.png" alt="nana">
             </div>
           </div>
+        </section>
 
-          <li class="s-how-to-list__item">お見積もり・初期提案
-            <p class="s-how-to-list__detail">打ち合わせを行い、お見積もり、<br>初期提案を提出いたします。</p>
-          </li>
+        <section class="s-how-to-wrapper" id="s-howTo">
+          <h2 class="s-title">HOW TO</h2>
+          <p class="s-text">ご注文の手順</p>
+          <p>・</p>
+          <p class="s-customize">・</p>
 
-          <li class="s-how-to-list__item">制作・開発
-            <p class="s-how-to-list__detail">ご発注後、制作を開始します。<br>ご発注後、制作を開始します。</p>
-          </li>
+          <div  class="s-how-to-container">
+            <ul class="s-how-to-list">
+              <div class="s-how-to-inner s-how-to-list__item">
+                <div>
+                  <li class="s-how-to-list__heading">お問い合わせ
+                    <p class="s-how-to-list__detail">instagramのメッセージから<br>受け付けています。</p>
+                  </li>
+                </div>
 
-          <li class="s-how-to-list__item">検収の後、納品
-            <p class="s-how-to-list__detail">公開してからのメンテナンスも<br>承っております。</p>
-          </li>
-        </ul>
+                <div class="s-how-to-img-wrapper">
+                  <p class="s-how-to-text"><span class="s-how-to-text__before"></span>click here<span class="s-how-to-text__after"></span></p>
+                  <a href="https://www.instagram.com/soi_design7" target="_blank"><img class="s-how-to-img" src="img/Instagram.png" alt="instagram"></a>
+                </div>
+              </div>
+
+              <li class="s-how-to-list__item s-how-to-list__heading">お見積もり・初期提案
+                <p class="s-how-to-list__detail">打ち合わせを行い、お見積もり、<br>初期提案を提出いたします。</p>
+              </li>
+
+              <li class="s-how-to-list__item s-how-to-list__heading">制作・開発
+                <p class="s-how-to-list__detail">ご発注後、制作を開始します。</p>
+              </li>
+
+              <li class="s-how-to-list__item s-how-to-list__heading">納品
+                <p class="s-how-to-list__detail">公開してからのメンテナンスも<br>承っております。</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <section class="s-contact-wrapper" id="s-contact">
+          <h2 class="s-title">CONTACT</h2>
+          <p class="s-text">お問い合わせ</p>
+          <p>・</p>
+          <p class="s-customize">・</p>
+          <a href="https://www.instagram.com/soi_design7" target="_blank"><img class="s-contact__img" 
+            src="img/Instagram.png" alt="instagram"></a>
+          <p>soi_design7</p>
+        </section>
       </div>
-    </section>
-    <section class="s-contact-wrapper" id="s-contact">
-      <p class="s-title">CONTACT</p>
-      <p class="s-text">お問い合わせ</p>
-      <p>・</p>
-      <p class="s-customize">・</p>
-      <a href="https://www.instagram.com/soi_design7" target="_blank"><img class="s-contact__img" 
-        src="img/Instagram.png" alt="instagram"></a>
-      <p>soi_design7</p>
-    </section>
 
-
-    <footer class="s-footer"><small class="s-copy-right">&copy 2022 Soy design</small></footer>
-  </section>
-</body>
+      <footer class="s-footer"><small class="s-copy-right">&copy 2022 Soy design</small></footer>
+    </section>
+  </body>
 </html>
